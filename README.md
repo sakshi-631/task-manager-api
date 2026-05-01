@@ -1,26 +1,28 @@
 # Task Manager API
 
-A simple REST API for managing tasks with features like create, update, delete, and view tasks.
+A RESTful API to manage tasks with features like create, update, delete, and view tasks. Built for learning backend development and API design.
+
+---
 
 ## 🚀 Features
-- Add new tasks
-- View all tasks
-- Update tasks
+- Create tasks with title, description, priority, due date
+- Fetch all tasks
+- Update task details
 - Delete tasks
+
+---
 
 ## 🛠 Tech Stack
 - Python
-- FastAPI (or Flask)
+- FastAPI / Flask
 - Requests
 
-## ▶️ How to Run
-1. Clone repo
-2. Install dependencies
-3. Run server:
-   uvicorn main:app --reload
+---
 
-## 📌 API Endpoints
-- GET /tasks
-- POST /tasks
-- PUT /tasks/{id}
-- DELETE /tasks/{id}
+## ▶️ How to Run
+
+```bash
+git clone https://github.com/your-username/task-manager-api.git
+cd task-manager-api
+pip install -r requirements.txt
+uvicorn main:app --reload
